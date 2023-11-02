@@ -1,0 +1,27 @@
+section.banner {
+    background-color: black;
+    display: flex;  
+    padding: 3rem 2rem;
+    align-items: center;
+}
+.banner-warper {
+    max-width: fit-content;    
+}
+.banner-title {
+    display: grid;
+    grid-auto-flow: column;
+    color: white;
+    line-height: 1;    
+}
+.banner-title.one {
+    font-size: 6rem;
+    font-weight: 700;
+}
+.banner-title.two {
+    font-size: 8rem;
+    font-weight: 800;
+}
+.banner-title.three {
+    font-size: 2rem;
+    font-weight: 300;
+}

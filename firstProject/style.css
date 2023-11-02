@@ -1,0 +1,41 @@
+
+button {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border: #000 1px solid;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+a:link {
+    color: #000;
+}
+/* visited link */
+a:visited {
+    color: #095484;
+}
+/* mouse over link */
+a:hover {
+    color: #8ebf42;
+}
+/* selected link */
+a:active {
+    color: #800000;
+}
+.nav {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+.nav .nav-link.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav .nav-link.logo  {
+    font-weight: 900;
+}

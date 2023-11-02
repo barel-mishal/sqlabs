@@ -1,0 +1,21 @@
+.color-yellow {
+    color: rgb(165, 165, 23);
+}
+.space {
+    margin-left: auto;
+}
+.grid {
+    display: grid;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.gap {
+    gap: 2rem;
+}
+.responsive-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}

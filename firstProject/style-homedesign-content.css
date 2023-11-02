@@ -1,0 +1,12 @@
+section.homedesign-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 3rem 2rem;
+    align-items: center;
+}
+section.homedesign-content h2 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
