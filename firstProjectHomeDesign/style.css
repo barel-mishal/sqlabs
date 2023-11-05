@@ -1,4 +1,7 @@
-
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 button {
     background-color: transparent;
     padding: 1rem 2rem;

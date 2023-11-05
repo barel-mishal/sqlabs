@@ -1,0 +1,51 @@
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+
+.cell-3 {
+    background-color: #AEDFF7;
+}
+
+.cell-4 {
+    background-color: #9CD2F3;
+}
+
+.cell-5 {
+    background-color: #8BC6EF;
+}
+
+.cell-6 {
+    background-color: #7ABAE9;
+}
+
+.cell-7 {
+    background-color: #69AEE5;
+}
+
+.cell-8 {
+    background-color: #58A1E1;
+}
+
+.cell-9 {
+    background-color: #4795DD;
+}
+
+.cell-10 {
+    background-color: #3689D9;
+}
+
+.cell-11 {
+    background-color: #257DD4;
+}
