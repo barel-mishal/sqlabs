@@ -1,0 +1,19 @@
+.m-0 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h-10 {
+    height: 10rem;
+}

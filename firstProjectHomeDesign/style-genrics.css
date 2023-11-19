@@ -19,3 +19,16 @@
     max-width: 500px;
     height: auto;
 }
+
+.button {
+    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+    background-color: white; /* Light yellow background when not hovered */
+    border: 5px solid #ccba1d; /* Transparent border when not hovered to maintain the button's size */
+    border-radius: 200px;
+    padding: 1rem 2rem;
+}
+.button:hover {
+    transform: scale(0.95); /* Shrink a little bit on hover */
+    background-color: #a79914; /* Yellow background on hover */
+    border: 2px solid #745c12; /* Darker yellow outline on hover */
+}

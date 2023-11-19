@@ -1,18 +1,14 @@
-td {
-    width: 50px;
-    height: 50px;
-    text-align: center;
-}
-
 table {
     border-collapse: separate;
     border-spacing: 0;
 }
 
 td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
     padding: 0;
 }
-
 
 .cell-3 {
     background-color: #AEDFF7;
@@ -49,3 +45,4 @@ td {
 .cell-11 {
     background-color: #257DD4;
 }
+
