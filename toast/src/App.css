@@ -17,3 +17,11 @@
 .h-10 {
     height: 10rem;
 }
+
+.h-screen {
+    height: 100vh;
+}
+
+.justify-content {
+    justify-content: center;
+}

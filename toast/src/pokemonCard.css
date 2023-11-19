@@ -1,0 +1,7 @@
+.pokemons {
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-auto-columns: max-content;
+}
