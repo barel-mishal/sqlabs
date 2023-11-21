@@ -25,3 +25,64 @@
 .justify-content {
     justify-content: center;
 }
+
+.counter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+.counter > button {
+    background-color: rgb(121, 147, 224);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.counter > button.red {
+    background-color: rgb(224, 121, 121);
+}
+.counter > button.green {
+    background-color: rgb(121, 224, 121);
+}
+.counter > button.red:disabled {
+    background-color: rgb(255, 193, 193);
+    color: rgb(255, 121, 121);
+    cursor: not-allowed;
+}
+.counter > button.green:disabled {
+    background-color: rgb(193, 255, 193);
+    color: rgb(121, 255, 121);
+    cursor: not-allowed;
+}
+
+.screen-of-counter {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-of-counter.big {
+    font-size: 5rem;
+    background-color: white;
+    height: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+}
+.screen-of-counter.big > h2 {
+    font-size: 5rem;
+}
+
+.screen-of-counter.small > p {
+    font-size: 1.5rem;
+}
+
