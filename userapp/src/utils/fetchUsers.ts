@@ -7,6 +7,7 @@ export const getAllUsers = async () => {
     const users = await res.json();
     return users;
   }
+
   
   export const deleteUser = async (id: number) => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
